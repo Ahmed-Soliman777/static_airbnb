@@ -1,0 +1,80 @@
+/* test css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 0.5rem 1rem;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.logo img {
+  height: 40px;
+  object-fit: contain;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem; 
+}
+
+.nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.nav a:hover {
+  background: #f2f2f2;
+  color: #FF5A5F;
+}
+
+.search-icon {
+  font-size: 1.2rem;
+  color: #555;
+  cursor: pointer;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.search-icon:hover {
+  background: #f2f2f2;
+  color: #FF5A5F;
+}
+
+.auth .login-btn {
+  padding: 0.5rem 1rem;
+  background: #FF5A5F;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.auth .login-btn:hover {
+  background: #e04e52;
+}
