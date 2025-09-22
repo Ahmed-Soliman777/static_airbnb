@@ -1,0 +1,133 @@
+/* .head-card {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.head-card .slide a {
+  margin-left: 15px;
+  background-color: #eee;
+  width: 50px;
+  height: 50px;
+  color: black;
+  font-size: 18px;
+} */
+.head-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 22px;
+  margin-block: 15px;
+  color: #222;
+}
+
+.head-card > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.head-card .slide {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.head-card .slide a {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 50%;
+  color: #222;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.head-card .slide a:hover {
+  background-color: #e6e6e6;
+}
+
+.original-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.original-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); */
+  cursor: pointer;
+  position: relative;
+}
+.original-card i.fa-heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  transition: color 0.2s ease;
+}
+.original-card .badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #222;
+  border: 1px solid #ddd;
+}
+.original-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.original-card h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 12px 6px;
+  color: #222;
+}
+
+.original-card p {
+  margin: 0 12px 0px;
+  font-size: 14px;
+  color: #717171;
+}
+
+.original-card .card-footer {
+  align-items: center;
+  color: #717171;
+  margin-bottom: 8px;
+  line-height: 0.5;
+}
+
+.original-card .cost {
+  font-weight: 600;
+}
+
+.original-card .rating {
+  font-size: 14px;
+}
+.original-card .dot {
+  font-size: 25px;
+}
+.original-card .rating i {
+  margin-right: 4px;
+}
