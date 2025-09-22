@@ -7,7 +7,7 @@ export default function Layout() {
         <div>
 
             {/* call navbar component here */}
-                        <Header />
+            <Header />
 
             <div className="container">
                 <Outlet />

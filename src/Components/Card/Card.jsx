@@ -1,6 +1,6 @@
 export default function Card({ detail }) {
   return (
-    <div className="col-md-4 mb-4">
+    <div className="col-md-12 mb-4">
       <div className="card h-100 shadow-sm border-0">
         <img
           src={detail.imgUrl}
