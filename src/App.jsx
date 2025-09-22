@@ -11,7 +11,8 @@ function App() {
       element: <Layout />,
       children: [
         { index: true, element: <Home /> },
-        { path: "/home", element: <Home /> },
+        { path: '/home', element: <Home /> },
+        { path: '/login', element: <Login /> },
 
         // Add experience routing here
         { path: "/experience", element: <Experience /> },

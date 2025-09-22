@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  margin-right: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #FF5A5F;
+}
+
+.nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #FF5A5F;
+  left: 0;
+  bottom: -4px;
+  transition: 0.3s;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+.search-icon {
+  font-size: 1.1rem;
+  color: #666;
+  cursor: pointer;
+  margin-right: 1.5rem;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.search-icon:hover {
+  color: #FF5A5F;
+  transform: scale(1.1);
+}
+
+.auth .login-btn {
+  padding: 0.45rem 1rem;
+  background-color: #FF5A5F;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.auth .login-btn:hover {
+  background-color: #e14d50;
+  transform: translateY(-2px);
+}
