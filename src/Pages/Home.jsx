@@ -14,7 +14,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="container my-5">
+    <div className="container py-5">
       {homeReduxData.map((city, index) => (
         <div key={index} className="mb-5">
           <h3 className="mb-4">{accommodations[index] + city.cityName}</h3>

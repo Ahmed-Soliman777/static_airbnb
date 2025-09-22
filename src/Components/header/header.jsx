@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { FaSearch } from "react-icons/fa"; 
 import "./Header.css";
@@ -15,7 +14,7 @@ function Header() {
         <span className="logo-text">Airbnb Newsroom</span>
       </div>
 
-      <div className="right-section">
+      <div className="right-section" style={{ display: "flex", alignItems: "center" }}>
         <nav className="nav">
           <Link to="/home">Home</Link>
           <Link to="/experience">Experience</Link>

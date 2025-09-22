@@ -9,7 +9,7 @@ export default function Layout() {
             {/* call navbar component here */}
             <Header />
 
-            <div className="container">
+            <div style={{backgroundColor: "#f7f7f7"}}>
                 <Outlet />
             </div>
             {/* call footer component here */}
