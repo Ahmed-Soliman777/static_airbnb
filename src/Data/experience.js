@@ -44,25 +44,8 @@ export const original = [
     cost: "From £92 / guest",
     rate: 5.0,
   },
-  {
-    id: 6,
-    image:
-      "https://a0.muscache.com/im/pictures/Mt/MtTemplate-5975701/original/1536d75f-932a-459d-bcfa-c43d8bc13660.jpeg?im_w=480",
-    title: "Carve marble with a third-generation sculptor",
-    country: "Athens,Greece",
-    cost: "From £44 / guest",
-    rate: 5.0,
-  },
-  {
-    id: 7,
-    image:
-      "https://a0.muscache.com/im/pictures/Mt/MtTemplate-5946904/original/3fc78212-954c-4e94-8464-1513c5a8cd91.jpeg?im_w=480",
-    title: "Experience a sacred Buddhist ritual and yoga class",
-    country: "Haiya Sub-district,Thailand",
-    cost: "From £9 / guest",
-    rate: 5.0,
-  },
 ];
+
 export const cairo = [
   {
     id: 1,
@@ -109,25 +92,8 @@ export const cairo = [
     rate: 4.95,
     num: "06",
   },
-  {
-    id: 6,
-    image:
-      "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4666579/original/306887d5-d049-426d-83e9-9ef06ec8f3cd.jpeg?im_w=480",
-    title: "Private tour to Giza Pyramids, Sphinx, ATVs& lunch",
-    cost: "From £48 / guest",
-    rate: 4.94,
-    num: "08:30",
-  },
-  {
-    id: 7,
-    image:
-      "https://a0.muscache.com/im/pictures/Mt/MtTemplate-381859/original/d144a4b1-ce15-4a09-b1af-872074b31944.jpeg?im_w=480",
-    title: "Enjoy an evening dinner Nile cruise",
-    cost: "From £26 / guest",
-    rate: 4.79,
-    num: "19",
-  },
 ];
+
 export const weekEnd = [
   {
     id: 1,
@@ -174,25 +140,8 @@ export const weekEnd = [
     rate: 4.89,
     num: "Fri  09",
   },
-  {
-    id: 6,
-    image:
-      "https://a0.muscache.com/im/pictures/lombard/MtTemplate-1093446-active_media/original/6ce79308-059e-483d-a44a-3d15ad3de703.jpg?im_w=480",
-    title: "Navigate The Pyramids and Saqqara",
-    cost: "From £37 / guest",
-    rate: 4.99,
-    num: "Fri  08:30",
-  },
-  {
-    id: 7,
-    image:
-      "https://a0.muscache.com/im/pictures/Mt/MtTemplate-1062432/original/27b91861-c64d-4382-9f1e-a5db60a4c11f.jpeg?im_w=480",
-    title: "Guided tour: Pyramids, Sphinx, Saqqara& Memphis",
-    cost: "From £30 / guest",
-    rate: 4.99,
-    num: "Fri  08",
-  },
 ];
+
 export const PopularCairo = [
   {
     id: 1,
@@ -233,21 +182,5 @@ export const PopularCairo = [
     title: "Cairo cooking class with an Egyptian family",
     cost: "From £29 / guest",
     rate: 4.98,
-  },
-  {
-    id: 6,
-    image:
-      "https://a0.muscache.com/im/pictures/lombard/MtTemplate-4648480-active_media/original/29979612-69f4-4736-a660-9b3c633efd9c.jpg?im_w=480",
-    title: "Egyptian Coffee Tasting & Local Breakfast",
-    cost: "From £16 / guest",
-    rate: 4.98,
-  },
-  {
-    id: 7,
-    image:
-      "https://a0.muscache.com/im/pictures/Mt/MtTemplate-1502691/original/c8e41e3a-5836-406e-8179-0c50d009f2d9.jpeg?im_w=960",
-    title: "PrivateTour to Giza Pyramids Grand Egyptian Museum",
-    cost: "From £37 / guest",
-    rate: 4.89,
   },
 ];

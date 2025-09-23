@@ -2,7 +2,9 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Pages/Home";
+import Login from "./Pages/login";
 import Experience from "./Pages/Experience";
+import Register from "./Pages/register";
 
 function App() {
   const routes = createBrowserRouter([
@@ -13,6 +15,7 @@ function App() {
         { index: true, element: <Home /> },
         { path: '/home', element: <Home /> },
         { path: '/login', element: <Login /> },
+        { path: '/register', element: <Register /> },
 
         // Add experience routing here
         { path: "/experience", element: <Experience /> },
