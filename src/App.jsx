@@ -1,10 +1,10 @@
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Layout from "./Components/Layout/Layout";
-import Home from "./Pages/Home";
-import Login from "./Pages/Login";
-import Experience from "./Pages/Experience";
-import Register from "./Pages/Register";
+import Home from "./Pages/Home.jsx";
+import Login from "./Pages/Login.jsx";
+import Experience from "./Pages/Experience.jsx";
+import Register from "./Pages/Register.jsx";
 
 function App() {
   const routes = createBrowserRouter([
@@ -13,24 +13,15 @@ function App() {
       element: <Layout />,
       children: [
         { index: true, element: <Home /> },
-        { path: '/home', element: <Home /> },
-        { path: '/login', element: <Login /> },
-        { path: '/register', element: <Register /> },
-
-        // Add experience routing here
+        { path: "/home", element: <Home /> },
+        { path: "/login", element: <Login /> },
+        { path: "/register", element: <Register /> },
         { path: "/experience", element: <Experience /> },
-
-        // Add services routing here
-        // { path: '/service', element: ----},
       ],
     },
   ]);
 
-  return (
-    <>
-      <RouterProvider router={routes} />
-    </>
-  );
+  return <RouterProvider router={routes} />;
 }
 
 export default App;
