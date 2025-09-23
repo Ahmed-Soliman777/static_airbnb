@@ -1,4 +1,4 @@
-import { original, cairo, weekEnd, PopularCairo } from "../Data/experience.js";
+import { original, cairo, weekEnd, PopularCairo } from "../Data/Experience";
 const Experience = () => {
   return (
     <>
