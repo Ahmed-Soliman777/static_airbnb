@@ -67,7 +67,7 @@ export const servicesData = [
     details: [
       {
         imgUrl:
-          "https://images.unsplash.com/photo-1577106263724-2c8e03bfe9cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+          "https://plus.unsplash.com/premium_photo-1675604242329-71a4895f7af1?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VHJhZGl0aW9uYWwlMjBFZ3lwdGlhbiUyMGNoZWZ8ZW58MHx8MHx8fDA%3D",
         price: 5200,
         detailsName: "Traditional Egyptian cuisine by Chef Mariam",
         hostName: "Mariam",
@@ -127,7 +127,7 @@ export const servicesData = [
       },
       {
         imgUrl:
-          "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+          "https://images.unsplash.com/photo-1662220054886-c5f551af0fbe?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         price: 2280,
         detailsName: "Catalan cuisine by Cristina",
         hostName: "Cristina",
@@ -222,7 +222,7 @@ export const servicesData = [
     details: [
       {
         imgUrl:
-          "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+          "https://images.unsplash.com/photo-1588528402605-1f9d0eb7a6d6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEZpdG5lc3MlMjBCb290Y2FtcCUyMHRyYWluZXIlMjBtYW58ZW58MHx8MHx8fDA%3D",
         price: 2700,
         detailsName: "Fitness Bootcamp with Jake",
         hostName: "Jake",
@@ -312,7 +312,7 @@ export const servicesData = [
       },
       {
         imgUrl:
-          "https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+          "https://images.unsplash.com/photo-1598795289578-8c055891c14c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fFN3aW1taW5nJTIwQ29hY2hpbmclMjBtYW58ZW58MHx8MHx8fDA%3D",
         price: 3650,
         detailsName: "Swimming Coaching with Coach Ahmed",
         hostName: "Ahmed",
@@ -327,7 +327,7 @@ export const servicesData = [
       },
       {
         imgUrl:
-          "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+          "https://images.unsplash.com/photo-1734668484998-c943d1fcb48a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fEZpdG5lc3MlMjBCb290Y2FtcCUyMHRyYWluZXIlMjBtYW58ZW58MHx8MHx8fDA%3D",
         price: 2850,
         detailsName: "Calisthenics Mastery with David",
         hostName: "David",
@@ -342,7 +342,7 @@ export const servicesData = [
       },
       {
         imgUrl:
-          "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+          "https://images.unsplash.com/photo-1639998733481-b2cb5da248f5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D",
         price: 3950,
         detailsName: "Functional Training with Ryan",
         hostName: "Ryan",
