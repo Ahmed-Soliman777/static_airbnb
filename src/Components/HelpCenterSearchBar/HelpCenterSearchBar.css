@@ -1,0 +1,102 @@
+/* ===== Search box container ===== */
+.search-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== Input + button wrapper ===== */
+.search-input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  padding: 6px 10px;
+  background-color: #fff;
+}
+
+/* ===== Input ===== */
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+/* ===== Search button ===== */
+.search-btn {
+  background-color: #ff385c;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* إلغاء أي hover effect */
+.search-btn:hover {
+  background-color: #ff385c; /* نفس اللون بالظبط */
+}
+
+/* ===== Results dropdown ===== */
+.results-box {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 8px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  z-index: 10;
+}
+
+/* ===== Results title ===== */
+.results-title {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* ===== Result item ===== */
+.result-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* ===== Icon styles ===== */
+.article-icon-wrapper {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.article-icon {
+  font-size: 16px;
+  color: #555;
+}
+
+/* ===== No results ===== */
+.no-results {
+  padding: 8px 0;
+  color: #999;
+  font-size: 14px;
+}

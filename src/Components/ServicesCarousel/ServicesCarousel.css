@@ -1,0 +1,83 @@
+.services-carousel-section {
+  width: 100%;
+}
+
+/* Header of the carousel */
+.services-carousel-section .carousel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.services-carousel-section .carousel-header h2 {
+  font-size: 16px; /* smaller title size */
+  font-weight: 600;
+  color: #333;
+}
+
+/* Arrow button */
+.services-carousel-section .arrow {
+  background: var(--color-gray-medium);
+  color: #000;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: background 0.2s, opacity 0.2s;
+  padding: 0;
+}
+
+/* Arrow icon */
+.services-carousel-section .arrow i {
+  font-size: 9px; /* smaller arrow */
+  font-weight: 900;
+}
+
+/* Arrows container */
+.services .arrows {
+  display: flex;
+  gap: 6px;
+}
+
+.services .arrow {
+  background: var(--color-gray-medium);
+  color: #000;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, opacity 0.2s;
+  padding: 0;
+}
+
+.services .arrow:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.services .arrow:hover:not(:disabled) {
+  background: #f5f5f5;
+}
+
+/* Carousel items wrapper */
+.services-carousel {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.services-carousel::-webkit-scrollbar {
+  display: none;
+}
