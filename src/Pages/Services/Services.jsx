@@ -20,7 +20,7 @@ const Services = () => {
     }));
 
   return (
-    <>
+    <section className="services-page px-3">
       {/* General Services */}
       <section className="services">
         <ServicesCarousel
@@ -30,7 +30,9 @@ const Services = () => {
         />
       </section>
 
-      <h2 className="fs-5 ps-4" style={{fontSize:40}}>Discover services on Airbnb</h2>
+      <h2 className="fs-5 ps-4" style={{ fontSize: 40 }}>
+        Discover services on Airbnb
+      </h2>
       {/* Chefs */}
       <section className="services large-cards ">
         <ServicesCarousel
@@ -48,7 +50,7 @@ const Services = () => {
           CardComponent={ServiceCard}
         />
       </section>
-    </>
+    </section>
   );
 };
 
