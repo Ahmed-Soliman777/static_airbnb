@@ -1,3 +1,69 @@
+/* App.css */
+:root {
+  /* Primary colors */
+  --color-primary: #ff5a5f;
+  --color-secondary: #00a699;
+  --color-tertiary: #fc642d;
+
+  /* Neutrals / Grayscale */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-light: #f7f7f7;
+  --color-gray-medium: #dddddd;
+  --color-gray-dark: #484848;
+  --color-gray-muted: #767676;
+
+  /* Additional accents */
+  --color-blue-link: #008489; /* Links / buttons */
+  --color-red-error: #ff4f4f; /* Errors / alerts */
+  --color-yellow-warning: #ffb400; /* Warnings / highlights */
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(90deg, #f52f53 0%, #e61e4d 100%);
+  --gradient-secondary: linear-gradient(135deg, #00a699, #00c4b4);
+
+  --box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-gray-dark);
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: var(--color-blue-link);
+}
+
+button.primary {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+button.secondary {
+  background: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.alert-error {
+  background-color: var(--color-red-error);
+  color: var(--color-white);
+}
+
+.alert-warning {
+  background-color: var(--color-yellow-warning);
+  color: var(--color-black);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .head-card {
   display: flex;
   justify-content: space-between;

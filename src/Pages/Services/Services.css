@@ -1,0 +1,17 @@
+/* Services Section */
+.services {
+  padding: 20px;
+}
+
+.services .services-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.services .services-header h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
