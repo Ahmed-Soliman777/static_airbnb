@@ -23,6 +23,7 @@ function Header() {
           <Link to="/home">Home</Link>
           <Link to="/experience">Experience</Link>
           <Link to="/service">Services</Link>
+          <Link to="/help">Help Center</Link>
         </nav>
 
         {/* Search Icon */}
